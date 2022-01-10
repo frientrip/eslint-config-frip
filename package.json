@@ -1,5 +1,5 @@
 {
-  "name": "@frip/eslint-config-frip",
+  "name": "@frientrip/eslint-config-frip",
   "version": "0.0.1",
   "description": "Frip's ESLint config",
   "main": "index.js",
