@@ -1,0 +1,26 @@
+// https://eslint.org/docs/rules/
+module.exports = {
+  rules: {
+    'jsx-no-lambda': 0,
+    'object-shorthand': [0, 'never'],
+    'member-ordering': 0,
+    'object-literal-sort-keys': 0,
+    'no-shadowed-variable': 0,
+    'no-consecutive-blank-lines': 0,
+    'no-string-literal': 0,
+    'no-implicit-dependencies': 0,
+    'no-submodule-imports': 0,
+    'no-case-declarations': 1,
+    'class-methods-use-this': 0,
+    'no-param-reassign': 1,
+    'max-len': 0,
+    'newline-per-chained-call': 0,
+    'no-confusing-arrow': 0,
+    'no-console': 1,
+    'no-use-before-define': 0,
+    'prefer-template': 2,
+    'require-yield': 0,
+    'no-alert': 0,
+    'no-shadow': 0,
+  },
+};

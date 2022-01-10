@@ -1,0 +1,69 @@
+{
+  "name": "@frip/eslint-config-frip",
+  "version": "0.0.1",
+  "description": "Frip's ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint './**/*.{js,ts,tsx}'",
+    "lint:fix": "npm run lint -- --fix",
+    "lint:style": "stylelint './**/*.{js,ts,tsx}'",
+    "lint:style:fix": "stylelint './**/*.{js,ts,tsx}' --fix",
+    "prettier": "prettier '**/*.{json,yaml,md}' --check",
+    "prettier:fix": "prettier '**/*.{json,yaml,md}' --write",
+    "deploy": "npm publish --access=public"
+  },
+  "files": [
+    "rules",
+    "index.js",
+    "prettierrc.js",
+    "react.js",
+    "stylelint.js"
+  ],
+  "dependencies": {
+    "@babel/eslint-parser": "^7.16.3",
+    "@stylelint/postcss-css-in-js": "^0.37.2",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-config-standard-jsx": "^10.0.0",
+    "eslint-import-resolver-typescript": "2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "postcss-syntax": "^0.36.2",
+    "prettier": "2.4.1",
+    "stylelint": "14.1.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-order": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@types/styled-components": "^5.1.19",
+    "react": "^17.0.2",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.5.2"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "frip",
+    "javascript",
+    "typescript",
+    "styleguide",
+    "prettier",
+    "stylelint"
+  ],
+  "author": "frip",
+  "license": "MIT"
+}
