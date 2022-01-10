@@ -1,4 +1,4 @@
-# @frip/eslint-config-frip
+# @frientrip/eslint-config-frip
 
 `Frip Web Frontend`의 커스텀 ESLint입니다.
 
@@ -9,7 +9,7 @@ Typescript, React 환경에 맞추어져 있으며, 기존 프로젝트와 의�
 ## 설치
 
 ```bash
-$ npm i -D @frip/eslint-config-frip
+$ npm i -D @frientrip/eslint-config-frip
 ```
 
 ## 사용
@@ -21,7 +21,7 @@ $ npm i -D @frip/eslint-config-frip
 
 {
     "root": true,
-    "extends": ["@frip/eslint-config-frip"],
+    "extends": ["@frientrip/eslint-config-frip"],
     parserOptions: {
       ecmaVersion: 6,
       sourceType: 'module',
@@ -56,7 +56,7 @@ $ npm i -D @frip/eslint-config-frip
 
 {
     "root": true,
-    "extends": ["@frip/eslint-config-frip/react"],
+    "extends": ["@frientrip/eslint-config-frip/react"],
     "rules": {
       // 추가할 커스텀 훅 작성
     }
@@ -109,7 +109,7 @@ $ npm i -D @frip/eslint-config-frip
 ```javascript
 // .prettierrc
 
-'@frip/eslint-config-frip/prettierrc';
+'@frientrip/eslint-config-frip/prettierrc';
 ```
 
 `package.json`에 다음 스크립트를 추가해주세요.
@@ -128,7 +128,7 @@ $ npm i -D @frip/eslint-config-frip
 
 {
     "root": true,
-    "extends": ["@frip/eslint-config-frip/stylelint"],
+    "extends": ["@frientrip/eslint-config-frip/stylelint"],
 }
 ```
 
